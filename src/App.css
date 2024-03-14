@@ -1,0 +1,30 @@
+.container{
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: column;
+}
+.container > div{
+  /* padding: 10px; */
+  text-align: center;
+  font-size: large;
+  
+}
+.body{
+  background-color: cornsilk;
+  /* margin: 10px; */
+}
+.hom{
+  background-color: aquamarine;
+  margin: 10px;
+}
+.con{
+  background-color: blueviolet;
+  padding: 10px 10px 5px 5px;
+}
+.abt{
+  background-color: chartreuse;
+
+}
+.con{
+  
+}
