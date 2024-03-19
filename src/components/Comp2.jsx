@@ -1,18 +1,13 @@
 import React, { createContext } from 'react';
 import Comp3 from './Comp3';
 
-export const Comp2Context = createContext();
-const Comp2 = () => {
-let myAge=26
+const Comp2 = (props) => {
+  // let myAge = 26;
+  // let myName = reuben;
   return (
-    <Comp2Context.Provider value={{myAge}} >
     <div>
-      <h1>comp2</h1>
-      <Comp3 />
-    </div >
-    </Comp2Context.Provider>
-    
-      
+      <Comp3 myName={props.myName} />
+    </div>
   );
 };
 

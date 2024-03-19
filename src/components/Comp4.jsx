@@ -1,12 +1,14 @@
 import { useContext } from 'react';
 
-import { Comp2Context } from './Comp2';
+// import { Comp2Context } from './Comp2';
+import Comp5 from './Comp5';
 
 const Comp4 = (props) => {
-  const { myAge } = useContext(Comp2Context);
+  // const { myAge } = useContext(Comp2Context);
   return (
     <div>
-      <h1>{myAge}</h1>
+    
+      <Comp5 myName={props.myName}/>
     </div>
   );
 };
